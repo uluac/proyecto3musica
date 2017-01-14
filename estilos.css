@@ -1,0 +1,227 @@
+
+/*---------- CABECERA ----------*/
+.Logo{
+  height: 50%;
+}
+#Logo{
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.img-social{
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+.header{
+  background: rgba(139,129,131,0.8);
+  height: 120px;
+}
+.Redes{
+  background: rgba(139,129,131,0.8);
+  height: 120px;
+}
+.RedSoc{
+padding-top: 80px;
+}
+
+/*---------- NAVEGADOR ----------*/
+.navegador{
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.Items{
+  padding: 5px 0;
+
+}
+.ItemMenu{
+  border: 2px solid white;
+  margin: 0 5%;
+  padding: 5px 0;
+  color: white;
+  font-family: cursive;
+  font-size: 16px;
+  border-radius: 5px;
+    background: 	rgba(139,119,101,0.8);
+    box-sizing: border-box;
+}
+.ItemMenu:hover{
+  background: orange;
+  color: white;
+  border: 2px solid white;
+}
+/*---------- CONTAINER----------*/
+
+body{
+  background: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+           background-attachment: fixed;
+  height: 100%;
+}
+.container-fluid{
+  background: gray;
+  min-height: 500px;
+}
+
+/* CONTENEDOR DE UN ARTICULO */
+.Articulo{
+  min-height: 300px;
+  width: 95%;
+  margin: 30px 2.5%;
+  padding: 20px 20px;
+  border-radius: 0 30px 0 30px;
+  border: 1px solid white;
+  text-align: justify;
+  background: rgba(139,129,131, 0.7);
+}
+
+.imagen{
+  min-height: 150px;
+  padding: 10px 0px;
+}
+.Titulo>p{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: white;
+}
+.Tiprin>p{
+  font-size: 300%;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: yellow;
+}
+.Parrafo>p{
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  padding: 0 30px;
+}
+.imagen img{
+  width: 90%;
+  margin: 10px 5%;
+}
+
+ /* AREA DE COMENTARIO */
+.comenta{
+  height: 45px;
+
+}
+.comenta img{
+    height: 80%;
+    margin: 10% 0;
+  margin-left: 0px;
+}
+.Texto{
+  min-height: 40px;
+
+}
+.TextArea{
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+/* SECCION BUSCAR */
+.divbus{
+  min-height: 500px;
+  width: 100%;
+  margin: 20px 0;
+}
+.lupa{
+  width: 20%;
+  border-radius: 10px 0 0 10px;
+ float: left;
+text-align: center;
+padding: 0;
+}
+.botonBus{
+  width: 100%;
+  padding: 6.5px 0;
+    border-radius: 10px 0 0 10px;
+}
+.input-element{
+  width: 80%;
+  min-height: 28px;
+  padding: 10px 10px;
+  color: white;
+  background: rgba(0,0,0,0.8);
+  border-radius: 0 4px 4px 0;
+  border: 0;
+
+}
+.Buscar{
+  background:rgba(139,129,131,0.8);
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 30px 0 30px 0;
+  border: 1px solid white;
+}
+.OpcionBus{
+  background:rgba(139,129,131,0.8);
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 30px 0 30px 0;
+  border: 1px solid white;
+  min-height: 300px;
+
+}
+.Boton{
+  border-top: 1px solid white;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 0px;
+  background: rgba(248,248,255,0.7);
+  border-collapse: collapse;
+}
+.Boton:hover{
+  background: orange;
+}
+.BSup{
+  border-radius: 5px 5px 0 0;
+  margin-top: 10px;
+}
+.BInf{
+  border-radius: 0 0 5px 5px;
+}
+
+@media (max-width:767px) {
+.Ocultar{
+  display: none;
+}
+.RedSoc{
+    padding-top: 0px;
+  }
+  .Redes{
+    height: 40px;
+  }
+
+}
+@media (min-width:768px) and (max-width:991px) {
+  .Ocultar1{
+    display: none;
+  }
+  .SectorDer{
+
+    margin: 0px 0;
+  }
+  .ItemMenu{
+    border: 2px solid white;
+    width: 100%;
+    margin: 0 0px;
+    padding: 5px 0;
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    border-radius: 5px;
+      background: 	rgba(139,119,101,0.8);
+  }
+
+}
